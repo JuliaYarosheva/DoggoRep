@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    background-color: #08192d;
+    padding: 44px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_logo-highlight {
+    color: #fc0254;
+}
+ .nav_list {
+     display: flex;
+     justify-content: space-around;
+ }
+ .nav_item {
+     color: #ffffff;
+     padding: 0 14px;
+     line-height: 1.5;
+     cursor: pointer;
+     transition: .3s color;
+ }
+
+.nav_item__hover:hover {
+    color: #fc0254;
+}

@@ -1,0 +1,23 @@
+.main-color {
+    color: #fc0254;
+}
+
+.secondary-color {
+    color: #8990a2;
+}
+
+.main-bg-color {
+    background-color: #0a183d;
+}
+
+.main-bg-button-color {
+    background-color: #fc0254;
+}
+
+ .secondary-bg-button-color {
+     background-color: #383b70;
+ }
+
+ .left-border {
+     border-left: 2px solid #c3c3c3;
+ }
