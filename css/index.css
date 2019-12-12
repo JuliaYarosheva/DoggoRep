@@ -36,19 +36,20 @@ body {
 
 .section {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 0 0;
+    justify-content: space-between;
     padding: 105px 90px 105px;
 }
 
 .section-left {
-    display: flex;
-    flex-direction: column;
     min-width: 480px;
     max-width: 50%;
-    flex-basis: 50%;
-    padding: 0 15px 0 0;
+    flex-basis: 48%;
+}
+
+.section-right {
+	display: flex;
+	flex-direction: column;
+	max-width: 48%;
 }
 
 .section-title_first {
@@ -67,13 +68,6 @@ body {
     font-size: 60px;
     font-weight: 600;
     line-height: 60px;
-}
-
-.section-right {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    padding: 0 15px 0;
 }
 
 
