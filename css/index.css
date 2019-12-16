@@ -34,10 +34,18 @@ body {
     color: #fc0254;
 }
 
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
 .section {
-    display: flex;
-    justify-content: space-between;
     padding: 105px 90px 105px;
+}
+
+.display-f {
+	display: flex;
+	justify-content: space-between;
 }
 
 .section-left {
@@ -61,10 +69,6 @@ body {
     margin: 0 0 30px;
 }
 
-.section-second {
-    background-color: #ffffff;
-}
-
 .section-title_second {
     color: #0a183d;
     font-size: 60px;
@@ -79,12 +83,9 @@ body {
 }
 
  .section-third {
-     background-image: url("images/how-to-bg.jpg");
+     background-image: url("../images/how-to-bg.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     background-attachment: fixed;
-     flex-direction: column;
-     padding-bottom: 55px;
  }
 
  .section-third_container {
@@ -97,6 +98,11 @@ body {
     flex-direction: column;
     width: 33%;
     padding: 0 15px 0;
+}
+
+.section-third_container_item p {
+	font-size: 15px;
+	line-height: 27px;
 }
 
 .section-third_container_img {
