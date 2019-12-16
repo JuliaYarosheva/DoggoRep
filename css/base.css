@@ -61,3 +61,13 @@
     border-radius: 50%;
     margin-bottom: 25px;
 }
+
+li {
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.section-fifth_img-check {
+    padding-right: 28px;
+}
