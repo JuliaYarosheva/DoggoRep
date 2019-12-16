@@ -44,12 +44,14 @@ body {
     min-width: 480px;
     max-width: 50%;
     flex-basis: 48%;
+    padding: 0 15px 0;
 }
 
 .section-right {
 	display: flex;
 	flex-direction: column;
 	max-width: 48%;
+    padding: 0 15px 0;
 }
 
 .section-title_first {
@@ -70,4 +72,63 @@ body {
     line-height: 60px;
 }
 
+ h4 {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 25px;
+}
+
+ .section-third {
+     background-image: url("images/how-to-bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     flex-direction: column;
+     padding-bottom: 55px;
+ }
+
+ .section-third_container {
+     display: flex;
+     justify-content: center;
+ }
+
+.section-third_container_item {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 15px 0;
+}
+
+.section-third_container_img {
+    padding-top: 16px;
+    padding-left: 32px;
+}
+
+.section-fourth {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-fourth_item {
+    display: flex;
+    justify-content: center;
+}
+
+.section-fourth_item_bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 15px 0;
+}
+
+.section-fourth_img {
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #0a183d;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
 
