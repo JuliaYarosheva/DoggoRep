@@ -56,8 +56,6 @@ body {
 }
 
 .section-right {
-	display: flex;
-	flex-direction: column;
 	max-width: 48%;
     padding: 0 15px 0;
 }
@@ -72,7 +70,7 @@ body {
 .section-title_second {
     color: #0a183d;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 60px;
 }
 
@@ -121,8 +119,7 @@ body {
 }
 
 .section-fourth_item_bottom {
-    display: flex;
-    flex-direction: column;
+    width: 24%;
     padding: 35px 15px 0;
 }
 
@@ -131,11 +128,15 @@ body {
     margin-bottom: 15px;
 }
 
-h5 {
+.section-fourth_h5 {
     color: #0a183d;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+}
+
+.section-fifth_h2 {
+    font-size: 60px;
 }
 
 .section-fifth_h3 {
@@ -143,18 +144,36 @@ h5 {
     margin-bottom: 30px;
 }
 
-.section-fifth_h2 {
-    font-size: 60px;
-}
-
-.section-fifth_inner {
+.inner-part {
     background-color: #1c294a;
     border-radius: 15%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-fifth_list {
-    padding: 70px 15px 50px 90px;
+    padding: 105px 145px 105px 85px;
+}
+
+.list_item {
+    font-size: 18px;
+}
+
+.section-sixth_img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.section-sixth_h4 {
+    color: #0a183d;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: string;
+    margin-bottom: 4px;
+}
+
+.section-fourth_item_bottom p {
+    text-align: center;
 }
