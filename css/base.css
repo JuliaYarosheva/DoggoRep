@@ -2,13 +2,17 @@
     color: #fc0254;
 }
 
-.images {
-	width: 100%;
-	height: auto;
+.secondary-color {
+    color: #0a183d;
 }
 
-.secondary-color {
+.third-color {
     color: #8990a2;
+}
+
+.images {
+    width: 100%;
+    height: auto;
 }
 
 .main-bg-color {
@@ -34,19 +38,20 @@
 .section_par {
     font-size: 15px;
     line-height: 27px;
-	margin-bottom: 50px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
 }
 
 .button-holder {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-start;
 }
 
 .button-holder__button {
     box-sizing: border-box;
     border-radius: 50px;
-    min-width: 195px;
+    max-width: 195px;
     padding: 25px 20px 25px;
     text-align: center;
     font-size: 14px;
@@ -54,11 +59,15 @@
     font-weight: bold;
 }
 
+.button-holder__button:hover {
+    cursor: pointer;
+}
+
 .button-holder__button + .button-holder__button {
 	margin-left: 15px;
 }
 
-.section-third_container_circle {
+.container_circle {
     background-color: #fc0254;
     width: 57px;
     height: 57px;
