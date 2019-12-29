@@ -45,12 +45,14 @@
 }
 
 .button-holder {
+    display: flex;
     justify-content: flex-start;
 }
 
 .button-holder__button {
     box-sizing: border-box;
     border-radius: 50px;
+    width: 100%;
     max-width: 195px;
     padding: 25px 20px 25px;
     text-align: center;
@@ -61,10 +63,6 @@
 
 .button-holder__button:hover {
     cursor: pointer;
-}
-
-.button-holder__button + .button-holder__button {
-	margin-left: 15px;
 }
 
 .container_circle {
