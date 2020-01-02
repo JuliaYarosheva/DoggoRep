@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui">
 	<title>Title</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400&display=swap" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
 	<link href="css/base.css" rel="stylesheet">
-	<link href="css/width480.css" media="screen and (max-device-width:480px)" rel="stylesheet">
+	<link href="css/width576.css" rel="stylesheet">
+	<link href="css/width768.css" rel="stylesheet">
+	<link href="css/width992.css" rel="stylesheet">
+	<link href="css/width1200.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -34,7 +37,7 @@
 </header>
 <section>
 	<div class="section">
-		<div class="container display-f display-col">
+		<div class="container display-f display-col display-column">
 			<div class="section-block">
 				<h2 class="main-title"><span class="main-color">Music</span> for everyone.</h2>
 				<p class="section_par mb50 mb25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -53,7 +56,7 @@
 </section>
 <section>
 	<div class="section white-bg-color">
-		<div class="container display-f display-col">
+		<div class="container display-f display-col display-column">
 			<div class="section-block">
 				<h2 class="secondary-title secondary-color">Unlimited Access to 100K tracks</h2>
 			</div>
@@ -76,8 +79,8 @@
 	<div class="section img-bg-color">
 		<div class="container">
 			<h2 class="main-title">How it works</h2>
-			<div class="display-f centered">
-				<div class="section-third_container_item mb25">
+			<div class="display-f centered display-column">
+				<div class="section-third_container_item align-left mb25">
 					<div class="container_circle">
 						<img class="section-third_img" src="images/brain.png" alt="Brain">
 					</div>
@@ -86,7 +89,7 @@
 						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						Quis ipsum sus-pendisse ultrices gravida.</p>
 				</div>
-				<div class="section-third_container_item mb25">
+				<div class="section-third_container_item align-right mb25">
 					<div class="container_circle">
 						<img class="section-third_img" src="images/pointer.png" alt="Pointer">
 					</div>
@@ -96,7 +99,7 @@
 						sollicitudin neque sodales, vehicula nibh.
 						Nam massa odio, portti-tor vitae efficitur non.</p>
 				</div>
-				<div class="section-third_container_item">
+				<div class="section-third_container_item align-left">
 					<div class="container_circle">
 						<img class="section-third_img" src="images/smartphone.png" alt="Smartphone">
 					</div>
@@ -113,7 +116,7 @@
 <section>
 	<div class="section white-bg-color">
 		<div class="container">
-			<div class="display-f display-col">
+			<div class="display-f display-col display-column">
 				<div class="section-block"><h2 class="secondary-title secondary-color">Our Concept & artists</h2></div>
 				<div class="section-block"><p class="section_par mb50 mb25 third-color">
 					Consectetur adipiscing elit, sed do eiusmod tempor
@@ -123,22 +126,26 @@
 					sit amet, consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p></div>
 			</div>
-			<div class="display-center display-col centered">
-				<div class="section_item">
-					<img class="section-fourth_img" src="images/1.jpg" alt>
-					<h5  class="title-h5">Soul Music</h5>
+			<div class="display-center display-col display-column centered">
+				<div class="block display-f display-col display-row">
+					<div class="section_item">
+						<img class="section-fourth_img" src="images/1.jpg" alt>
+						<h5  class="title-h5">Soul Music</h5>
+					</div>
+					<div class="section_item">
+						<img class="section-fourth_img" src="images/2.jpg" alt>
+						<h5 class="title-h5">Live Concerts</h5>
+					</div>
 				</div>
-				<div class="section_item">
-					<img class="section-fourth_img" src="images/2.jpg" alt>
-					<h5 class="title-h5">Live Concerts</h5>
-				</div>
-				<div class="section_item">
-					<img class="section-fourth_img" src="images/3.jpg" alt>
-					<h5 class="title-h5">Dj Sets</h5>
-				</div>
-				<div class="section_item">
-					<img class="section-fourth_img" src="images/4.jpg" alt>
-					<h5 class="title-h5">Live Streems</h5>
+				<div class="block display-f display-col display-row">
+					<div class="section_item">
+						<img class="section-fourth_img" src="images/3.jpg" alt>
+						<h5 class="title-h5">Dj Sets</h5>
+					</div>
+					<div class="section_item">
+						<img class="section-fourth_img" src="images/4.jpg" alt>
+						<h5 class="title-h5">Live Streems</h5>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -146,7 +153,7 @@
 </section>
 <section>
 	<div class="section">
-        <div class="container display-f display-col">
+        <div class="container display-f display-col display-column">
             <div class="section-block mb50">
                 <h2 class="secondary-title">Subscription from $15/month</h2>
                 <h3 class="title-h3 main-color">Start a free trial now</h3>
@@ -178,7 +185,7 @@
 <section>
     <div class="section white-bg-color">
         <div class="container">
-            <div class="display-f display-col">
+            <div class="display-f display-col display-column">
                 <div class="section-block"><h2 class="secondary-title secondary-color">Why go Premium</h2></div>
                 <div class="section-block"><p class="section_par mb50 mb25 third-color">
                     Consectetur adipiscing elit, sed do eiusmod tempor
@@ -188,35 +195,39 @@
                     sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p></div>
             </div>
-            <div class="display-center display-col centered">
-                <div class="section_item">
-                    <img class="section-sixth_img" src="images/11.jpg" alt>
-                    <h4  class="title-h5">No ad interruptions</h4>
-                    <p class="section_par third-color">Consectetur adipiscing elit</p>
-                </div>
-                <div class="section_item">
-                    <img class="section-sixth_img" src="images/12.jpg" alt>
-                    <h4 class="title-h5">High Quality</h4>
-                    <p class="section_par third-color">Ectetur adipiscing elit</p>
-                </div>
-                <div class="section_item">
-                    <img class="section-sixth_img" src="images/13.jpg" alt>
-                    <h4 class="title-h5">Listen Offline</h4>
-                    <p class="section_par third-color">Sed do eiusmod tempor</p>
-                </div>
-                <div class="section_item">
-                    <img class="section-sixth_img" src="images/14.jpg" alt>
-                    <h4 class="title-h5">Download Music</h4>
-                    <p class="section_par third-color">Adipiscing elit</p>
-                </div>
+            <div class="display-center display-col display-column centered">
+				<div class="block display-f display-col display-row">
+					<div class="section_item">
+						<img class="section-sixth_img" src="images/11.jpg" alt>
+						<h4  class="title-h5">No ad interruptions</h4>
+						<p class="section_par third-color">Consectetur adipiscing elit</p>
+					</div>
+					<div class="section_item">
+						<img class="section-sixth_img" src="images/12.jpg" alt>
+						<h4 class="title-h5">High Quality</h4>
+						<p class="section_par third-color">Ectetur adipiscing elit</p>
+					</div>
+				</div>
+				<div class="block display-f display-col display-row">
+					<div class="section_item">
+						<img class="section-sixth_img" src="images/13.jpg" alt>
+						<h4 class="title-h5">Listen Offline</h4>
+						<p class="section_par third-color">Sed do eiusmod tempor</p>
+					</div>
+					<div class="section_item">
+						<img class="section-sixth_img" src="images/14.jpg" alt>
+						<h4 class="title-h5">Download Music</h4>
+						<p class="section_par third-color">Adipiscing elit</p>
+					</div>
+				</div>
             </div>
         </div>
     </div>
 </section>
 <footer>
-	<div class="section">
-		<div class="container display-f display-col">
-			<div class="section-block ordered">
+	<div class="footer-section">
+		<div class="container display-f display-col display-column">
+			<div class="section-block ordered flex-end align-left">
 				<div class="nav_logo">
 					<span class="main-color">sol</span>music
 				</div>
