@@ -189,4 +189,17 @@
         width: 95%;
         height: 95%;
     }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    .left-border {
+        border-left: 2px solid #c3c3c3;
+    }
 }

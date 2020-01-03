@@ -1,5 +1,9 @@
 @media screen and (min-device-width: 577px) and (max-device-width: 768px) {
 
+    .nav {
+        padding: 40px 30px 40px;
+    }
+
     .nav_logo {
         font-size: 20px;
     }
@@ -205,5 +209,9 @@
 
     .flex-end {
         align-self: flex-start;
+    }
+
+    .left-border {
+        border-left: none;
     }
 }

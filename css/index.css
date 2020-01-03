@@ -17,7 +17,7 @@ body {
     font-weight: bold;
 }
 
-.nav_list {
+.menu {
     display: flex;
     justify-content: space-around;
 }
@@ -34,7 +34,8 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -112,8 +113,8 @@ body {
 }
 
 .section-fourth_img {
-    width: 245px;
-    height: 245px;
+    width: 220px;
+    height: 220px;
     border-radius: 15%;
     margin-bottom: 15px;
 }
@@ -186,4 +187,17 @@ body {
 
 .flex-end {
     align-self: flex-end;
+}
+
+.left-border {
+    border-left: 2px solid #c3c3c3;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.invisible {
+    display: none;
 }

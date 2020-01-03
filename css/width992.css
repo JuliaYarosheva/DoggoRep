@@ -191,4 +191,8 @@
     .flex-end {
         align-self: flex-start;
     }
+
+    .left-border {
+        border-left: none;
+    }
 }
